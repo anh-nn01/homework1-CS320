@@ -4,3 +4,7 @@ Although both merge and rebase integrates code changes from 1 branch into anothe
 2. Git rebase, on the other hand, considers all changes and compresses them into a single patch. 
     It integrates this new patch into the target branch, moving completed work from the source branch to the target branch. 
     However, instead of preserving the history of the source branch, rebase rewrites the history by creating new commits for each commit in the source branch, removing unnecessary merge commits.
+
+What is a remote repository?
+A remote repository is the version of a Git project that are hosted either on Internet or some network. 
+In short, it is the place where the code is stored. The URL could be the GitHub repository, a fork to other repository, or a completely different server.
